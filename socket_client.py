@@ -8,7 +8,7 @@ ip_address="Enter IP Address"
 port= "Enter Port"
 client_socket.connect((ip_address, port))
 
-message="Enter Message here.."   # Send to Server
+message="Enter Message here.."   # Send Meaasge to Server
 client_socket.sendall(message.encode('utf-8'))
 
 # Receive a message from the server
